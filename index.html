@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WLED - AI SmartDesign - Official App Site</title>
+    <meta
+      name="description"
+      content="Control your WLED lights from iPhone. Manage devices, scenes, brightness, colors, and Pro design features."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="./index.html">WLED - AI SmartDesign</a>
+        <nav>
+          <a href="./privacy.html">Privacy</a>
+          <a href="./support.html">Support</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="badge">Smart WLED Control</p>
+            <h1>Design LED strip moods in seconds.</h1>
+            <p class="lead">
+              WLED - AI SmartDesign helps you find lights on your Wi-Fi, tune
+              color and brightness, save scenes, and explore Pro design tools
+              for richer ambient setups.
+            </p>
+            <div class="cta-row">
+              <a class="btn" href="./privacy.html">Read Privacy Policy</a>
+              <a class="btn btn-secondary" href="./support.html">Get Support</a>
+            </div>
+          </div>
+
+          <div
+            class="hero-visual"
+            role="img"
+            aria-label="WLED app screenshot with colorful LED strip preview"
+          >
+            <div class="glow-field"></div>
+            <div class="light-panel">
+              <div class="panel-topline">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="phone-frame">
+                <img
+                  class="app-screenshot"
+                  src="./assets/app-bedroom-strip.jpg"
+                  alt="WLED - AI SmartDesign Bedroom Strip control screen"
+                />
+              </div>
+              <div class="led-strip led-strip-top">
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <div class="led-strip led-strip-bottom">
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container cards">
+        <article class="card">
+          <span class="card-light"></span>
+          <h2>Local Network First</h2>
+          <p>
+            The app communicates directly with your WLED devices on your Wi-Fi
+            network.
+          </p>
+        </article>
+        <article class="card">
+          <span class="card-light card-light-warm"></span>
+          <h2>Scene Design Tools</h2>
+          <p>
+            Unlock Apple Design and OpenAI Design tools for richer palettes,
+            faster setup, and room-ready lighting ideas.
+          </p>
+        </article>
+        <article class="card">
+          <span class="card-light card-light-cool"></span>
+          <h2>Color Without Clutter</h2>
+          <p>
+            Keep devices, scenes, brightness, and color control in one focused
+            place.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>(c) <span id="year"></span> WLED - AI SmartDesign</p>
+        <p>
+          <a href="./privacy.html">Privacy Policy</a>
+          <span class="dot">|</span>
+          <a href="./support.html">Support</a>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = String(
+        new Date().getFullYear()
+      );
+    </script>
+  </body>
+</html>
